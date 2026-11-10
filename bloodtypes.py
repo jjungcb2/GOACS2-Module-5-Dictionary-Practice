@@ -40,7 +40,6 @@ with open("bloodtypes.txt", "r") as file:
             # Count Rh factor
             rh_types[rh] += 1
 
-# Print results
 print("Full Blood Types:")
 for blood_type, count in full_blood_types.items():
     print(blood_type, ":", count)
